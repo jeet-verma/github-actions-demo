@@ -25,4 +25,4 @@ jobs:
     environment: local-env
     steps:
       - name: deploy
-        run: mvn deploy:deploy-file -Dfile=C:/Users/Jeet/.m2/repository/com/mycompany/github-actions-demo/1.0.0-SNAPSHOT/github-actions-demo-1.0.0-SNAPSHOT-mule-application.jar -DgroupId=com.mycompany -Dmule.home=D:\mule-enterprise-standalone-4.4.0
+        run: mvn deploy:deploy-file -Dfile=C:/Users/Jeet/.m2/repository/com/mycompany/github-actions-demo/1.0.0-SNAPSHOT/github-actions-demo-1.0.0-SNAPSHOT-mule-application.jar -DgroupId=com.mycompany -Dmule.home=D:/mule-enterprise-standalone-4.4.0
